@@ -1,0 +1,7 @@
+.tox/
+*.egg-info/
+__pycache__/
+build/
+.dist/*
+.VENVS/*
+dist/

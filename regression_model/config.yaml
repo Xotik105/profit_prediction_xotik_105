@@ -1,0 +1,21 @@
+#INITIAL SETTINGS
+data_directory: "./os_made_directory/datasets"
+data_name: "train_startup.csv"
+test_data_name: "test_startup.csv"
+
+package_name: regression_model
+
+pipeline_name: regression_model
+pipeline_save_file: regression_model_output_v
+
+
+target: Profit
+features:
+  - R&D_Spend
+  - Administration
+  - Marketing_Spend
+
+drop_feature: State
+
+random_state: 0
+test_size: 0.3
